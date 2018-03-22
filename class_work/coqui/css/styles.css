@@ -1,4 +1,14 @@
 body {
 	background: black;
 	color: white;
+	margin: 16px;
+	padding: 16px;
 }
+
+p {
+	border: dotted 2px green;
+	margin: 10px;
+	padding: 10px;
+}
+
+
