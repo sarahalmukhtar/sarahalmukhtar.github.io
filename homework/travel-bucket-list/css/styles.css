@@ -1,0 +1,52 @@
+header {
+	text-align: center;
+}
+
+header h1 {
+	background-color: green;
+	color: white;
+	padding: 10px 0;
+	font-family: arial, sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+header nav, footer {
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+section .first, section .third {
+	background-color: lightblue;
+}
+
+section .second {
+	background-color: lightgreen;
+}
+
+section, footer {
+	text-align: center;
+}
+
+img {
+	height: 200px;
+}
+
+div {
+	margin: 10px 0;
+	padding: 20px 0;
+}
+
+p {
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	padding: 0 20px;
+	text-align: left;
+}
+
+h2 {
+	font-family: arial, sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+}
