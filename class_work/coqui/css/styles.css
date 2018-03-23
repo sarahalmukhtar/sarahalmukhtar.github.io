@@ -5,10 +5,26 @@ body {
 	padding: 16px;
 }
 
-p {
+p, img {
 	border: dotted 2px green;
 	margin: 10px;
 	padding: 10px;
 }
 
+.footer, .about, .header, .locations p {
+	text-align: center;
+}
 
+.header img {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.locations ul {
+	width: 150px;
+	margin: 0 auto;
+}
+
+a {
+	color: green;
+}
