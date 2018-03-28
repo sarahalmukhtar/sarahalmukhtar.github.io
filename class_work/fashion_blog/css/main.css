@@ -1,0 +1,65 @@
+body {
+	font-family: lato, sans-serif;
+	color: #444444;
+	line-height: 1.5rem;
+}
+
+main {
+	width: 720px;
+	padding: 54px;
+	border-left: solid 6px #dddddd;
+}
+
+h1, a {
+	color: #dd0000;
+}
+
+h1, a:hover {
+	color: #aa0000;
+}
+
+h1 {
+	font-weight: 300;
+	font-size: 34px;
+}
+
+h2 {
+	color: black;
+	font-weight: 300;
+	font-size: 24px;
+}
+
+nav a {
+	color: #dddddd;
+}
+
+nav a:hover {
+	color: black;
+}
+
+.date {
+	color: #cccccc;
+}
+
+.article-title {
+	color: black;
+}
+
+footer {
+	color: #bbbbbb;
+}
+
+ul {
+ 	padding: 0;
+}
+
+li {
+	display: inline-block;
+}
+
+li a {
+	text-decoration: none;
+}
+
+
+
