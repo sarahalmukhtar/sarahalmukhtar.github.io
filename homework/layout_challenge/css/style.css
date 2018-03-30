@@ -1,40 +1,21 @@
-body,
-html {
-    height: 100%;
-    margin: 0;
-}
-
-.container {
-    background: lightgray;
-    border: 1px solid gray;
+body, html {
+  height: 100%;
+  margin: 0;
 }
 
 main {
-    width: 720px;
-    margin: 0 auto;
+	width: 720px;
 }
 
-#two-column section.container.left {
-    height: 400px;
-    float: left;
-    width: 60%;
+.box {
+  background: lightgray;
+  border: 1px solid gray;
 }
 
-#two-column section.container.right {
-    height: 400px;
-    float: right;
-    width: 30%;
+#two-column .header {
+  height: 100px;
 }
 
 #three-column .container {
-    height: 200px;
-}
-
-header {
-	margin-bottom: 10px;
-	height: 100px;
-}
-
-footer {
-	height: 100px;
+  height: 200px;
 }
