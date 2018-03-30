@@ -14,51 +14,85 @@ h1, a {
 	color: #dd0000;
 }
 
-h1, a:hover {
+h1:hover, a:hover {
 	color: #aa0000;
 }
 
 h1 {
+	font-size: 36px;
 	font-weight: 300;
-	font-size: 34px;
+	margin: 0;
+	line-height: 1em;
 }
 
 h2 {
 	color: black;
+	font-size: 21px;
 	font-weight: 300;
-	font-size: 24px;
+	margin: 12px 0;
 }
 
 nav a {
-	color: #dddddd;
+	color: #cccccc;
+	margin-right: 10px;
+	text-decoration: none;
+	padding-bottom: 2px;
+	border-bottom: 2px #dddddd solid;
 }
 
 nav a:hover {
 	color: black;
 }
 
-.date {
-	color: #cccccc;
+h3 {
+	color: #bbbbbb;
+	font-weight: 300;
+	font-size: 24px;
+	margin: 40px 0 12px 0;
+
 }
 
-.article-title {
+h4 {
 	color: black;
+	font-weight: 300;
+	font-size: 24px;
+	margin: 0 0 12px 0;
 }
 
 footer {
 	color: #bbbbbb;
+	margin-top: 40px;
 }
 
 ul {
  	padding: 0;
+ 	margin: 12px 0;
 }
 
 li {
 	display: inline-block;
 }
 
-li a {
+article a {
+	float: right;
 	text-decoration: none;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+article {
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+footer a {
+	text-decoration: none;
+	padding: 0 6px 0 0;
+}
+
+img {
+	width: 100%;
 }
 
 

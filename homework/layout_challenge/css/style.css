@@ -1,0 +1,40 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    background: lightgray;
+    border: 1px solid gray;
+}
+
+main {
+    width: 720px;
+    margin: 0 auto;
+}
+
+#two-column section.container.left {
+    height: 400px;
+    float: left;
+    width: 60%;
+}
+
+#two-column section.container.right {
+    height: 400px;
+    float: right;
+    width: 30%;
+}
+
+#three-column .container {
+    height: 200px;
+}
+
+header {
+	margin-bottom: 10px;
+	height: 100px;
+}
+
+footer {
+	height: 100px;
+}
