@@ -9,7 +9,9 @@ main {
     margin: 50px;
 }
 
-.container, .container-top, .container-bottom {
+.container,
+.container-top,
+.container-bottom {
     display: flex;
     justify-content: space-between;
 }
@@ -45,13 +47,13 @@ main {
 }
 
 #two-column .left {
-    width: 450px;
-    margin: 20px 0;
+    width: 65%;
+    margin: 20px 10px 0 0;
 }
 
 #two-column .right {
-    width: 250px;
-    margin: 20px 0;
+    width: 35%;
+    margin: 20px 0 20px 10px;
 }
 
 #three-column .left {
@@ -76,11 +78,11 @@ main {
 }
 
 #simple-mkt .container-top .left {
-	margin-right: 10px;
+    margin-right: 10px;
 }
 
 #simple-mkt .container-top .right {
-	margin-left: 10px;
+    margin-left: 10px;
 }
 
 #simple-mkt .container-bottom .left,
@@ -90,15 +92,13 @@ main {
 }
 
 #simple-mkt .container-bottom .left {
-	margin: 20px 10px 20px 0;
+    margin: 20px 10px 20px 0;
 }
 
 #simple-mkt .container-bottom .middle {
-	margin: 20px 10px;
+    margin: 20px 10px;
 }
 
 #simple-mkt .container-bottom .right {
-	margin: 20px 0 20px 10px;
+    margin: 20px 0 20px 10px;
 }
-
-
