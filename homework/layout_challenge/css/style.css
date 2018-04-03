@@ -1,21 +1,39 @@
-body, html {
-  height: 100%;
-  margin: 0;
+body,
+html {
+    height: 100%;
+    margin: 0;
 }
 
 main {
-	width: 720px;
+    width: 720px;
+    margin: 50px;
+}
+
+.container {
+    display: flex;
 }
 
 .box {
-  background: lightgray;
-  border: 1px solid gray;
+    background: lightgray;
+    border: 1px solid gray;
 }
 
-#two-column .header {
-  height: 100px;
+#two-column .header, #two-column .footer {
+    height: 100px;
+}
+
+#two-column .left {
+	height: 500px;
+	width: 450px;
+	margin: 20px 20px 20px 0;
+}
+
+#two-column .right {
+	height: 500px;
+	width: 250px;
+	margin: 20px 0;
 }
 
 #three-column .container {
-  height: 200px;
+    height: 200px;
 }
