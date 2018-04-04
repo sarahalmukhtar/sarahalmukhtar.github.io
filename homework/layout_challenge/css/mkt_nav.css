@@ -7,18 +7,18 @@ header {
 }
 
 .header-left {
-	width: 20%;
+	flex-basis: 150px;
 }
 
 nav {
-	width: 70%;
+	flex-basis: 400px;
 	align-items: center;
 	margin: 5px;
 }
 
 .nav-section {
-	height: 50px;
-	width: 25%;
+	height: 30px;
+	flex-grow: 1;
 	margin: 5px;
 }
 
@@ -28,5 +28,5 @@ nav {
 
 .left, .middle, .right {
 	height: 200px;
-	width: 33%;
+	flex-grow: 1;
 }

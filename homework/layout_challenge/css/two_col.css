@@ -7,9 +7,9 @@
 }
 
 .left {
-    width: 65%;
+    flex-grow: 3;
 }
 
 .right {
-    width: 35%;
+    flex-grow: 1;
 }

@@ -16,11 +16,11 @@
 
 .container-top .left,
 .container-top .right {
-    width: 50%;
+    flex-grow: 1;
 }
 
 .container-bottom .left,
 .container-bottom .middle,
 .container-bottom .right {
-    width: 33%;
+    flex-grow: 1;
 }

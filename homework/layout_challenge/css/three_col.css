@@ -7,10 +7,10 @@
 }
 
 .left, .right {
-    width: 110px;
+    flex-grow: 1;
 }
 
 .middle {
-    width: 500px;
+    flex-grow: 3;
 }
 
