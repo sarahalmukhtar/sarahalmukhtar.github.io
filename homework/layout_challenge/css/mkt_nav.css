@@ -13,11 +13,13 @@ header {
 nav {
 	width: 70%;
 	align-items: center;
+	margin: 5px;
 }
 
 .nav-section {
 	height: 50px;
 	width: 25%;
+	margin: 5px;
 }
 
 .top {
