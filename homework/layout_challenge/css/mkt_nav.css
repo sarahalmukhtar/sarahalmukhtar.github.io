@@ -1,0 +1,30 @@
+header, nav, .bottom {
+    display: flex;
+}
+
+header {
+	justify-content: space-between;
+}
+
+.header-left {
+	width: 20%;
+}
+
+nav {
+	width: 70%;
+	align-items: center;
+}
+
+.nav-section {
+	height: 50px;
+	width: 25%;
+}
+
+.top {
+	height: 300px;
+}
+
+.left, .middle, .right {
+	height: 200px;
+	width: 33%;
+}

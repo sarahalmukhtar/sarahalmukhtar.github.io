@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+}
+
+.left, .right {
+    height: 400px;
+}
+
+.left {
+    width: 65%;
+}
+
+.right {
+    width: 35%;
+}

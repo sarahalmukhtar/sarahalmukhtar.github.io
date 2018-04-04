@@ -1,0 +1,26 @@
+.container-top,
+.container-bottom {
+    display: flex;
+}
+
+.container-top .left,
+.container-top .right {
+    height: 400px;
+}
+
+.container-bottom .left,
+.container-bottom .middle,
+.container-bottom .right {
+    height: 200px;
+}
+
+.container-top .left,
+.container-top .right {
+    width: 50%;
+}
+
+.container-bottom .left,
+.container-bottom .middle,
+.container-bottom .right {
+    width: 33%;
+}
