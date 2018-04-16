@@ -1,14 +1,3 @@
-document.write('Sarah' + 'Almukhtar');
+var title = document.querySelector("#title");
 
-var num = 10 * 10;
-var y = num + 3;
-
-document.write(y);
-
-function hello() {
-	alert('hello');
-}
-
-alert()
-
-
+console.log(title)
