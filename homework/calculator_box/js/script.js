@@ -4,10 +4,10 @@ var redButton = document.querySelector("#red");
 redButton.onclick = colorRed;
 
 function colorRed() {
-	var red = "red";
-
-	document.querySelector("#out").style.background = red;
+    var red = "red";
+    document.querySelector("#out").style.background = red;
 }
+
 
 // clicking the "Blue" button turns the center blue
 var blueButton = document.querySelector("#blue");
@@ -15,10 +15,10 @@ var blueButton = document.querySelector("#blue");
 blueButton.onclick = colorBlue;
 
 function colorBlue() {
-	var blue = "blue";
-
-	document.querySelector("#out").style.background = blue;
+    var blue = "blue";
+    document.querySelector("#out").style.background = blue;
 }
+
 
 // clicking the + buttons adds to the value of the center
 var plusTenButton = document.querySelector("#a10");
@@ -36,37 +36,37 @@ minusTwentyButton.onclick = subtractTwenty;
 minusThirtyButton.onclick = subtractThirty;
 
 function addTen() {
-	var base = document.querySelector("#out").innerHTML;
+    var base = document.querySelector("#out").innerHTML;
 
-	document.querySelector("#out").innerHTML = parseInt(base) + 10;
+    document.querySelector("#out").innerHTML = parseInt(base) + 10;
 }
 
 function addTwenty() {
-	var base = document.querySelector("#out").innerHTML;
+    var base = document.querySelector("#out").innerHTML;
 
-	document.querySelector("#out").innerHTML = parseInt(base) + 20;
+    document.querySelector("#out").innerHTML = parseInt(base) + 20;
 }
 
 function addThirty() {
-	var base = document.querySelector("#out").innerHTML;
+    var base = document.querySelector("#out").innerHTML;
 
-	document.querySelector("#out").innerHTML = parseInt(base) + 30;
+    document.querySelector("#out").innerHTML = parseInt(base) + 30;
 }
 
 function subtractTen() {
-	var base = document.querySelector("#out").innerHTML;
+    var base = document.querySelector("#out").innerHTML;
 
-	document.querySelector("#out").innerHTML = parseInt(base) - 10;
+    document.querySelector("#out").innerHTML = parseInt(base) - 10;
 }
 
 function subtractTwenty() {
-	var base = document.querySelector("#out").innerHTML;
+    var base = document.querySelector("#out").innerHTML;
 
-	document.querySelector("#out").innerHTML = parseInt(base) - 20;
+    document.querySelector("#out").innerHTML = parseInt(base) - 20;
 }
 
 function subtractThirty() {
-	var base = document.querySelector("#out").innerHTML;
+    var base = document.querySelector("#out").innerHTML;
 
-	document.querySelector("#out").innerHTML = parseInt(base) - 30;
+    document.querySelector("#out").innerHTML = parseInt(base) - 30;
 }
