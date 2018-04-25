@@ -17,21 +17,23 @@
 // When I click on an opened row
 // I expect the text to disappear more slowly than how it appeared
 
-$(".row").click(function(event) {
-  $(event.currentTarget).find(".wrapper").slideToggle();
-});
+// $(".row").click(function(event) {
+//   $(event.currentTarget).find(".wrapper").slideToggle();
+// });
 
 // extra credit:
 
-// $(".row").click(function(event) {
-//   var wrapper = $(event.currentTarget).find(".wrapper");
+$(".row").click(function(event) {
+  var wrapper = $(event.currentTarget).find(".wrapper");
 
-//   if(wrapper.is(":visible")) {
-//     wrapper.slideUp("slow");
-//   } else {
-//     wrapper.slideDown("fast");
-//   }
-// });
+  if(wrapper.is(":visible")) {
+  	//yes, wrapper is visible case
+    wrapper.slideUp("slow");
+  } else {
+  	//no, wrapper is not visible case
+    wrapper.slideDown("fast");
+  }
+});
 
 
 // *** the wrapper div is what is set to display none
