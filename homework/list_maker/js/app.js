@@ -20,8 +20,8 @@ $("#clickme").click(function() {
 })
 
 
-$("li").click(function remove(event) {
-
+$("ul").click(function remove(event) {
+	$(event.target).remove();
 })
 
 
