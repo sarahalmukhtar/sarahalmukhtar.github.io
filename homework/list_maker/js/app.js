@@ -20,6 +20,11 @@ $("#clickme").click(function() {
 })
 
 
+$("li").click(function remove(event) {
+
+})
+
+
 
 // Bonus:
 

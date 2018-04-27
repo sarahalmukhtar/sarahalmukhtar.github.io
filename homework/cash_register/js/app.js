@@ -9,3 +9,16 @@
 // As a user
 // When I enter a number into the input and submit
 // I expect the input to be cleared
+
+var total = 0;
+
+$("#entry").submit(function(event) {
+	event.preventDefault();
+
+	var number = parseInt( $("input").val() );
+	total += number;
+	$("input").val("");
+	$("#total").html("$" + total);
+})
+
+
