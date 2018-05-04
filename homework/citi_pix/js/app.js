@@ -5,7 +5,7 @@
 $("#city-type").change(changeImg);
 
 function changeImg() {
-	var newClass = $("#city-type").val();
-	$("body").removeClass();
-	$("body").addClass(newClass);
+    var newClass = $("#city-type").val();
+    $("body").removeClass();
+    $("body").addClass(newClass);
 }

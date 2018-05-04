@@ -6,27 +6,6 @@
 // Once I have added an item to the list
 // I expect the input to be empty
 
-
-$("#clickme").click(function() {
-	var text = $("#item").val();
-	var output = "<li>" + text + "</li>";
-	$("#list").append(output);
-	$("#item").val("").focus();
-	//^chained function
-
-	if (text === "") {
-		alert("Please input an item!");
-	}
-	//having the if statement at the bottom means it's still doing all the steps and therefore appending even though it's empty
-})
-
-
-$("ul").click(function remove(event) {
-	$(event.target).remove();
-})
-
-
-
 // Bonus:
 
 // As a user
@@ -44,3 +23,27 @@ $("ul").click(function remove(event) {
 // As a user
 // When I click on an item I have already added
 // I expect it to be removed from the list
+
+$('#clickme').click(function () {
+
+  var newItem = $('#item').val();
+
+  if (newItem.length === 0) {
+
+    alert("You must enter a value, silly!");
+
+  } else {
+
+    $("#list").append("<li>" + newItem + "</li>");
+
+    // add click event for newly created list item
+
+    $("li").click(function(event) {
+      $(event.currentTarget).remove();
+    });
+  }
+
+  $('#item')
+    .focus()
+    .val('');
+});

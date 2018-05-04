@@ -15,7 +15,10 @@ var total = 0;
 $("#entry").submit(function(event) {
 	event.preventDefault();
 
-	var number = parseInt( $("input").val() );
+	var number = parseFloat( $("input").val() );
+
+	$("#entries").append("<tr><td></td><td>" + number + "</td></tr>");
+
 	total += number;
 	$("input").val("");
 	$("#total").html("$" + total);
