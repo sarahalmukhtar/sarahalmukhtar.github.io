@@ -1,0 +1,99 @@
+body {
+/*    background: url('../images/video.png');
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    margin: 25px;
+    background: url('../images/logo.png');
+    /*font-family: 'Rakkas', cursive;*/
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 30px;
+    text-align: right;
+    background-repeat: no-repeat;
+    width: 151px;
+    height: 151px;
+    line-height: 24px;
+    color: rgb(255, 25, 65)
+}
+
+header img:hover {
+    opacity: 0;
+}
+
+main,
+footer {
+    margin: 2%;
+    width: 90%;
+    max-width: 660px;
+}
+
+main {
+    margin: 25px auto;
+    display: flex;
+    /*justify-content: flex-end;*/
+    flex-wrap: wrap;
+}
+
+.articles {
+    background: url('../images/logo-bw.png');
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    margin: 0 2% 2% 0;
+    width: 151px;
+    height: 151px;
+    opacity: 0.2;
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+
+.articles a {
+    text-decoration: none;
+    color: white;
+    font-family: 'georgia';
+    /*background-color: white;*/
+    /*opacity: 1;*/
+    /*display: none;*/
+}
+
+.articles:hover {
+    background: url('../images/logo.png');
+    opacity: 1;
+    border-radius: 50%;
+    box-shadow: 0 0 16px rgba(255, 25, 65, 0.5);
+}
+
+.logo {
+    padding-right: 2%;
+}
+
+footer {
+    height: 100px;
+}
+
+@media screen and (max-width: 540px) {
+    body {
+        display: block;
+    }
+
+    main {
+        margin: 0;
+        width: 100%;
+    }
+
+    header, .articles {
+        margin: 10px;
+    }
+
+    .articles {
+        opacity: 1;
+    }
+}
+
+
+
