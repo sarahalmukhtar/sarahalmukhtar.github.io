@@ -1,0 +1,15 @@
+main {
+  text-align: center;
+  padding-top: 25px;
+}
+
+img {
+  margin: 25px;
+  position: absolute;
+  width: 25%;
+  transition: width 1s;
+}
+
+.shrunk {
+	width: 50px;
+}
