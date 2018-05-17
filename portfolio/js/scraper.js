@@ -12,8 +12,6 @@ function makeRequest() {
         setTimeout(function() {
         	processRequest(result);
         }, 1000);
-        
-        // console.log(result);
 
     }).fail(function(err) {
 
@@ -38,17 +36,8 @@ function processRequest(result) {
 
             allResults[count] = article;
 
-            count++;         
-
-			// $("main").append('<div class="articles">' + '<a href="' + articleURL + '">' + '<p>' + headline + '</p></a></div>');
-
-    		// console.log(headline);
-    		// console.log(articleURL);
+            count++;
     	})
-
-        // for (var i = 0; i < 10; i++) {
-        //     console.log(result.response.docs[i]);
-        // }
 
         page++;
 
@@ -69,18 +58,9 @@ function processRequest(result) {
             allResults[count] = articles;
 
             count++;
-
-            // $("main").append('<div class="articles">' + '<a href="' + articleURL + '">' + '<p>' + headline + '</p></a></div>');
-
-            // console.log(headline);
-            // console.log(articleURL);
         })
 
         console.log("var articles = " + JSON.stringify(allResults));
-
-        // for (var i = 0; i < 10; i++) {
-        //     console.log(result.response.docs[i]);
-        // }
     }
 }
 
@@ -96,11 +76,6 @@ function getURL() {
 
     return url;
 }
-
-// function addDiv(doc) {
-// 	var headline = doc.headline.main;
-// 	var articleURL = doc.web_url;
-// }
 
 makeRequest();
 
