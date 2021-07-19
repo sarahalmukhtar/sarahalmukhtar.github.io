@@ -1,0 +1,97 @@
+.name-arabic, .article {
+    max-width: 1350px;
+    width:  calc(100% - 60px);
+}
+
+#articles a, #about a {
+    color: #00a89c;
+    text-decoration: none;
+}
+
+#articles a:visited, #about a:visited {
+    color: #00a89c;
+    text-decoration: none;
+}
+
+#articles a:hover, #about a:hover {
+    color: rgb(255, 25, 65);
+    text-decoration: underline;
+}
+
+.name-arabic {
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 52px;
+    text-align: right;
+    margin: 15% auto 20%;
+}
+
+.name-arabic a {
+    /*color: #272361;*/
+    color: rgb(255, 25, 65);
+    text-shadow: 2px 2px 4px rgba(0, 168, 156, .5);
+    text-decoration: none;
+}
+
+.name-arabic a:hover {
+    color: #00a89c;
+    text-shadow: 2px 2px 4px rgba(255, 25, 65, .5);
+}
+
+.article {
+    margin: 10% auto;
+}
+
+.article-promos {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.article-promo {
+    max-width: 400px;
+}
+
+.portrait {
+    max-width: 200px;
+}
+
+.article-title, #about p {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#about {
+    max-width: 1350px;
+    width: calc(100% - 60px);
+    margin: 0 auto;
+}
+
+#about p {
+    max-width: 600px;
+}
+
+@media screen and (min-width: 460px) {
+    .name-arabic {
+        font-size: 60px;
+        margin: 10% auto 20%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .name-arabic {
+        font-size: 82px;
+        margin: 5% auto 10%;
+    }
+
+    .article-title, #about p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .article-promo {
+        max-width: 600px;
+    }
+
+    .portrait {
+        max-width: 300px;
+    }
+}
