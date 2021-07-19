@@ -16,6 +16,7 @@
 #articles a:hover, #about a:hover {
     color: rgb(255, 25, 65);
     text-decoration: underline;
+    text-decoration-color: #00a89c;
 }
 
 .name-arabic {
