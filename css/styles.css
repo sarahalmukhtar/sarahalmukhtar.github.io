@@ -60,6 +60,9 @@ a, #articles a:visited, #about a:visited {
     margin: 10px;
     box-shadow: 0 0 10px rgba(255, 25, 65, .18);
 }
+.article-promo:last-child {
+    margin-right: 20px;
+}
 
 .portrait {
     max-width: 200px;
