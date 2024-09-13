@@ -17,9 +17,9 @@
     font-weight: 700;
 }
 
-#articles a:visited, #about a:visited {
+a, #articles a:visited, #about a:visited {
     color: #00a89c;
-    text-decoration: none;
+/*    text-decoration: none;*/
 }
 
 #articles a:hover, #about a:hover {
