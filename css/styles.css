@@ -6,6 +6,22 @@
 
 .article {
     width:  calc(100% - 40px);
+    position: relative;
+}
+
+.article:first-child::before {
+    content: "Swipe for more screenshots -->";
+    display: block;
+    color: rgb(255, 25, 65);
+    width: calc(100% - 80px);
+    margin: 0 auto;
+    text-align: left;
+    font-style: italic;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: 1;
+    font-size: 14px;
 }
 
 #articles, #about {
@@ -53,6 +69,7 @@ a, #articles a:visited, #about a:visited {
     display: flex;
     overflow-x: scroll;
     margin-bottom: 10px;
+    position: relative;
 }
 
 .article-promo {
@@ -97,6 +114,18 @@ a, #articles a:visited, #about a:visited {
     .article:last-child {
         margin-bottom: 80px;
     }
+    .article:first-child {
+        margin-top: 0;
+    }
+    .article:first-child::before {
+        content: "Scroll for more screenshots -->";
+        width: 100%;
+        top: 410px;
+        right: 0;
+        z-index: 1;
+        font-size: 16px;
+        text-align: right;
+    }
 
     .name-arabic {
         font-size: 62px;
@@ -120,7 +149,7 @@ a, #articles a:visited, #about a:visited {
     .article-promo {
         max-height: 380px;
         margin: 20px 0 20px 20px;
-        box-shadow: 0 0 14px rgba(255, 25, 65, .18);
+        box-shadow: 0 0 12px rgba(255, 25, 65, .12);
     }
 
     .portrait {
